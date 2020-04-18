@@ -14,10 +14,10 @@ B20_tube_layout.py
 Frontend Files:
 
 Individual_Pathfinder.py
-	- UI for selecting individual paths for the wire to follow
+	- Script used for selecting individual paths for the wire to follow
 
 Bulk_Pathfinder.py
-	-Program to optimize the path of all the listed paths in wire_input.xlsx
+	- Script used for optimizing the path of all the listed paths in wire_input.xlsx
 
 wire_output.txt
 	-The output of the paths for the wires in wire_input.xlsx to follow
