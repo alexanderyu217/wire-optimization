@@ -2,7 +2,7 @@
 
 ## inputs:
     1. upload a chassis data sheet under the chassis folder and follow the proper input conventions. See B20 for sample
-    2. for bulk pathfinding, upload an input data sheet under the paths folder and follow proper input conventions. see - wire_input for sampel
+    2. for bulk pathfinding, upload an input data sheet under the paths folder and follow proper input conventions. see wire_input.xlsx for sample
 
 ## commands:
     1. individual paths:
