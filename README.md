@@ -1,3 +1,14 @@
 # Wire Path Optimization Project
- 
-Hours are lost during the harness manucaturing period from manually laying the wires out on previous cars for measurement. This program takes an input of the car's chassis in spreadsheet form and a list of desired start and end nodes and generates the most efficient path for the wire to follow.
+
+inputs:
+    upload a chassis data sheet under the chassis folder and follow the proper input conventions. See B20 for sample
+    for bulk pathfinding, upload an input data sheet under the paths folder and follow proper input conventions. see wire_input for sampel
+
+commands:
+    individual paths:
+        python3 run.py -ind -[search type] [filepath to chassis] [start node] [end node]
+    bulk pathfinding:
+        python3 run.py -bulk -[search type] [filepath to chassis] [filepath to input sheet]
+
+saving wire paths:
+    add a "> [output destination]" after the command to save the file path(s)
