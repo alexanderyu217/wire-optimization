@@ -57,6 +57,8 @@ class PriorityQueue:
             for i in range(len(self.data)):
                 if data == self.data[i][0]:
                     self.data[i][1] = priority
+                    break
+            self.data.sort(key = lambda d: d[1])
 
     def pop(self):
         return self.data.pop(0)[0]
